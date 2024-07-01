@@ -17,7 +17,7 @@ public class DataHandler {
 
     public String getById(int id) {
         if (map.containsKey(id)) {
-            return "\\nNAME: id " + id + ", " +
+            return "\nNAME: id " + id + ", " +
                     map.get(id);
         } else return "No data!";
     }
